@@ -1,0 +1,6 @@
+<TextureCache>
+	<TextureObject id="1001" name="chickenBro" path="Resource/Texture/1.png"/>
+	<TextureObject id="1002" name="xueyueBro" path="Resource/Texture/2.png"/>
+	<TextureObject id="1003" name="niub" path="Resource/Texture/3.png"/>
+	<TextureObject id="1004" name="girl" path="Resource/Texture/4.png"/>
+</TextureCache>

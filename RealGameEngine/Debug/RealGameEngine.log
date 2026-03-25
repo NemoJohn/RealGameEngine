@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  BasePrimitive.cpp
+C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\GameEngine.h(43,15): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“BasePrimitive.cpp”)
+  
+C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\BasePrimitive.cpp(21,47): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\BasePrimitive.cpp(126,23): warning C4018: “<”: 有符号/无符号不匹配
+  RealGameEngine.vcxproj -> C:\Users\Administrator\source\repos\RealGameEngine\bin\RealGameEngine.exe

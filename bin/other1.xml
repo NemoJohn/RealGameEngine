@@ -1,0 +1,11 @@
+<World>
+    <Actor x="0" y="0" z="0" roll="0" pitch="0" yaw="0" sx="1" sy="1" sz="1">
+        <Component type="mesh" id="1001" x="0" y="0" z="0" />
+        <Component type="pointLight" x="0" y="0" z="-2" ar="0" ag="0" ab="0" dr="0" dg="0" db="0" range="100" falloff="1" />
+        <Component type="camera" x="-15" y="0" z="0" active="0" />
+    </Actor>
+    <Actor x="0" y="0" z="0" roll="0" pitch="0" yaw="0" sx="1" sy="1" sz="1">
+        <Component type="mesh" id="1002" x="0" y="0" z="0" />
+        <Component type="camera" x="0" y="0" z="-15" active="1" />
+    </Actor>
+</World>
