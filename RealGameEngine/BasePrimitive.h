@@ -35,6 +35,8 @@ private:
 
 	LPD3DXEFFECT effect = nullptr;
 	LPDIRECT3DVERTEXDECLARATION9 vertexDecl = nullptr;
+
+	LPDIRECT3DVOLUMETEXTURE9 volumeTexture = nullptr;
 	
 };
 

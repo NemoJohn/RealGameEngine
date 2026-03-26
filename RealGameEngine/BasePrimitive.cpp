@@ -87,15 +87,20 @@ void BasePrimitive::CreateVertex()
 	pDevice->CreateVertexDeclaration(vertexElements, &vertexDecl);
 
 	LPD3DXBUFFER buffer = nullptr;
-	D3DXCreateEffectFromFileA(pDevice, "»­È¦È¦.fx", NULL, NULL, 0, NULL, &effect, &buffer);
+	D3DXCreateEffectFromFileA(pDevice, "ÆÙ²¼.fx", NULL, NULL, 0, NULL, &effect, &buffer);
     if (buffer)
     {
 		OutputDebugStringA((char*)buffer->GetBufferPointer());
     }
 
-    effect->SetTexture("myTexture", TextureCache::GetInstance()->GetTextureByID("1001"));
-    effect->SetTexture("OtherTexture", TextureCache::GetInstance()->GetTextureByID("1002"));
+    D3DXCreateVolumeTextureFromFileA(pDevice, "NoiseVolume.dds", &volumeTexture);
+    effect->SetTexture("volumeTexture", volumeTexture);
 
+    //effect->SetTexture("myTexture", TextureCache::GetInstance()->GetTextureByID("1001"));
+    //effect->SetTexture("OtherTexture", TextureCache::GetInstance()->GetTextureByID("1002"));
+    effect->SetTexture("myTexture1", TextureCache::GetInstance()->GetTextureByID("1002"));
+    effect->SetTexture("myTexture2", TextureCache::GetInstance()->GetTextureByID("1006"));
+    effect->SetTexture("myTexture3", TextureCache::GetInstance()->GetTextureByID("1007"));
 }
 
 void BasePrimitive::OnRender()
@@ -111,6 +116,7 @@ void BasePrimitive::OnRender()
 
 	D3DXMATRIXA16 world;
 	D3DXMatrixIdentity(&world);
+    //D3DXMatrixRotationZ(&world, 3.1415f);
 	D3DXMATRIXA16 mvp = world * CameraManager::GetInstance()->GetViewMatrix() * CameraManager::GetInstance()->GetProjMatrix();
 
 	effect->SetMatrix("WorldViewProj", &mvp);

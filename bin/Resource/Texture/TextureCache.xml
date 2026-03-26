@@ -3,4 +3,7 @@
 	<TextureObject id="1002" name="xueyueBro" path="Resource/Texture/2.png"/>
 	<TextureObject id="1003" name="niub" path="Resource/Texture/3.png"/>
 	<TextureObject id="1004" name="girl" path="Resource/Texture/4.png"/>
+	<TextureObject id="1005" name="fire" path="Resource/Texture/FireBase.tga"/>
+	<TextureObject id="1006" name="opacity" path="Resource/Texture/FireDistortion.tga"/>
+	<TextureObject id="1007" name="distration" path="Resource/Texture/FireOpacity.tga"/>
 </TextureCache>

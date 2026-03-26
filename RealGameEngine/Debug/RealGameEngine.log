@@ -4,5 +4,5 @@ C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\GameEngine.h(4
   (编译源文件“BasePrimitive.cpp”)
   
 C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\BasePrimitive.cpp(21,47): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
-C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\BasePrimitive.cpp(126,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\source\repos\RealGameEngine\RealGameEngine\BasePrimitive.cpp(132,23): warning C4018: “<”: 有符号/无符号不匹配
   RealGameEngine.vcxproj -> C:\Users\Administrator\source\repos\RealGameEngine\bin\RealGameEngine.exe
